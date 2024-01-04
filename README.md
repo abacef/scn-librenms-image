@@ -2,4 +2,4 @@ This is how to build the docker image for librenms with all the nesessary config
 
 Currently just added the necessary files on top of the librenms image. I think that is all we need to do?
 
-In order to test this image independently, you need to install the DB container and add other environment variables
+`docker build . -t  scn-librenms`
